@@ -1,0 +1,49 @@
+{
+    "run_id": "ULbW26YVn",
+    "start_time": 1541113874.2398858,
+    "target": null,
+    "max_models": 9,
+    "run_time": 333,
+    "scale": false,
+    "classification": false,
+    "balance": false,
+    "balance_threshold": 0.2,
+    "project": null,
+    "end_time": 1541114224.1702986,
+    "execution_time": 349.9304127693176,
+    "nthreads": 1,
+    "min_mem_size": 6,
+    "analysis": 0,
+    "X": [
+        "Rank",
+        "Country",
+        "Sector",
+        "Industry",
+        "Company",
+        "Sales",
+        "Assets",
+        "Market Value"
+    ],
+    "variables": {
+        "Rank": "int",
+        "Company": "string",
+        "Country": "enum",
+        "Sales": "real",
+        "Profits": "real",
+        "Assets": "real",
+        "Market Value": "real",
+        "Sector": "enum",
+        "Industry": "enum"
+    },
+    "model_execution_time": 346.07305121421814,
+    "mod_best": "GBM_grid_0_AutoML_20181101_191116_model_25",
+    "mod_best_algo": "gbm",
+    "models": [
+        "GBM_grid_0_AutoML_20181101_191116_model_25",
+        "XRT_0_AutoML_20181101_191116",
+        "DRF_0_AutoML_20181101_191116",
+        "GLM_grid_0_AutoML_20181101_191116_model_0",
+        "DeepLearning_0_AutoML_20181101_191116",
+        "StackedEnsemble_BestOfFamily_0_AutoML_20181101_191116"
+    ]
+}
